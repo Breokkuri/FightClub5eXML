@@ -101,19 +101,6 @@
         <text></text>
         <text>Source: Tasha's Cauldron of Everything p. 56</text>
         </feature>
-      <feature optional="YES">
-          <name>Deft Explorer: Roving (6th Level)</name>
-        <text>Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.</text>
-        <text></text>
-        <text>Source: Tasha's Cauldron of Everything p. 56</text>
-        </feature>
-      <feature optional="YES">
-          <name>Deft Explorer: Tireless (10th Level)</name>
-        <text>As an action, you can give yourself a number of temporary hit points equal to 1d8 + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</text>
-        <text>In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.</text>
-        <text></text>
-        <text>Source: Tasha's Cauldron of Everything p. 56</text>
-        </feature>
       </autolevel>
     <autolevel level="2">
         <slots>0, 2</slots>
@@ -572,6 +559,14 @@
         <text>Source: Player's Handbook p. 89</text>
         </feature>
       </autolevel>
+<autolevel level="6">
+<feature optional="YES">
+          <name>Deft Explorer: Roving (6th Level)</name>
+        <text>Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.</text>
+        <text></text>
+        <text>Source: Tasha's Cauldron of Everything p. 56</text>
+        </feature>
+</autolevel>
     <autolevel level="7">
         <slots>0, 4, 3</slots>
       </autolevel>
@@ -720,6 +715,15 @@
         <text>You gain an additional favored terrain.</text>
         <text></text>
         <text>Source: Player's Handbook p. 89</text>
+        </feature>
+      </autolevel>
+<autolevel level="10">
+<feature optional="YES">
+          <name>Deft Explorer: Tireless (10th Level)</name>
+        <text>As an action, you can give yourself a number of temporary hit points equal to 1d8 + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</text>
+        <text>In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.</text>
+        <text></text>
+        <text>Source: Tasha's Cauldron of Everything p. 56</text>
         </feature>
       </autolevel>
 <autolevel level="10">
@@ -1002,4 +1006,5 @@
         </feature>
       </autolevel>
     </class>
+
 </compendium>
